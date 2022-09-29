@@ -25,7 +25,7 @@ do{
 }while(comprobacion === "p");
 
 do{
-var opcion = parseInt(prompt(`Ingrese la opcion que desee:\n 1-Mostrar producto\n 2-Filtrar producto\n 3-Actualizar precio\n 4-Eliminar producto\n 0-Salir`));
+var opcion = parseInt(prompt(`Ingrese la opcion que desee:\n 1-Mostrar producto\n 2-Filtrar producto\n 3-Actualizar precios\n 4-Eliminar producto\n 0-Salir`));
 
 switch(opcion){
     case 1:
