@@ -10,6 +10,7 @@ class productos {
 alert("Sistema de ingreso de productos")
 
 const arrayProductos = [];
+
 do{
     var comprobacion = prompt("Ingrese la letra P para agregar un producto o cualquier otra acción en caso contrario").toLowerCase();
     if (comprobacion === "p"){
