@@ -64,8 +64,6 @@ switch (){
 
 } */
 
-alert("Simulador de precio FOB")
-
 /* function validar(valor) {
     let intentos = 0;
 
@@ -110,10 +108,15 @@ if(opcion != ""){
     alert(`Su precio FOB es : $ ${precioFob}`)
 }else{
     alert(`Su precio FOB es : $ ${sumaGastos}`) */
-}
 
 
+const usuario = {
+    nombre: "andres",
+    edad: 19,
+    telefono: null
+  };
 
+  console.log(usuario.telefono?.trabajo);
 
 
 
